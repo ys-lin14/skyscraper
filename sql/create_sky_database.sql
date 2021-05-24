@@ -11,6 +11,6 @@ CREATE TABLE review (
     content BLOB,
     rating TINYINT,
     thumbs_up_count MEDIUMINT UNSIGNED,
-    created_for_version VARCHAR(64),
-    created_on DATETIME
+    version VARCHAR(64),
+    last_modified DATETIME
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_bin;
