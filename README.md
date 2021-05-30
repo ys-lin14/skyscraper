@@ -3,15 +3,15 @@ An ETL pipeline for scraping Google Play reviews for [Sky: Children of the Light
 <br><br>
 
 **Review Table**
-|     Column      |                Description                 |
-|       :-:       |                    :-:                     |
-|    review_id    | Google Play review ID                      |
-|    user_name    | Google username                            |
-|     content     | Google Play review                         |
-|     rating      | rating (1 - 5)                             |
-| thumbs_up_count | -                                          |
-|     version     | Game version                               |
-|  last_modified  | Date on which the review was last modified |
+|     Column      |                 Description                  |
+|       :-:       |                     :-:                      |
+|    review_id    | Google Play review ID                        |
+|    user_name    | Google username                              |
+|     content     | Google Play review                           |
+|     rating      | rating (1 - 5)                               |
+| thumbs_up_count | Number of users who found the review helpful |
+|     version     | Game version                                 |
+|  last_modified  | Date on which the review was last modified   |
 
 **Folder Structure**
 ```
