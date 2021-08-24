@@ -22,7 +22,6 @@ An ETL pipeline for scraping Google Play reviews for [Sky: Children of the Light
   |
   |--- sql
        |-- create_sky_database.sql 
-       |-- review_dump.sql (sql dump for reviews last modified between January 1st 2021 and May 23rd 2021)
 ```
 
 
